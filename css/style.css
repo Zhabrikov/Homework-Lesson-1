@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+
+span.abbreviation{
+    color: green;
+}
+
+p.ordinary{
+    font-family: Verdana, sans-serif;
+    font-size: 20px;   
+}
+
+ul.listOne li{
+    list-style: disc;
+    padding-left: 30px;
+}
+
+ul.listTwo li{
+    list-style: none;
+    text-indent: -18px;   
+}
+
+ul.listTwo li::before{
+    content: "§";
+    padding-right: 10px;
+}
+
+ul.listThree li{
+    list-style: circle;
+    padding-left: 10px;
+}
